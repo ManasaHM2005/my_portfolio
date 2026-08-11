@@ -39,11 +39,13 @@ const EDUCATION = [
 ]
 
 const SKILLS = [
-  { icon: '💻', name: 'C Language' },
-  { icon: '🌐', name: 'HTML & CSS' },
+  { icon: '💻', name: 'C' },
+  { icon: '🌐', name: 'HTML and CSS' },
   { icon: '🐍', name: 'Python' },
   { icon: '☕', name: 'Java' },
   { icon: '🗄️', name: 'MySQL' },
+  { icon: '⚡', name: 'JavaScript' },
+  { icon: '🌶️', name: 'Flask' },
 ]
 
 const PROJECTS = [
@@ -59,17 +61,17 @@ const PROJECTS = [
   {
     title: 'Loan Application and Tracking System',
     bullets: [
-      'Developed using HTML, CSS, JavaScript, and MySQL',
+      'Developed using HTML, CSS, JavaScript, MySQL',
       'Supports user login, loan application, and real-time status updates',
-      'Ensures secure and organised loan data management',
+      'Ensures secure and organized loan data management',
     ],
     tags: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
   },
   {
-    title: 'Internlink — Internship & Job Portal',
+    title: 'Internlink-internship and job portal',
     bullets: [
       'A platform connecting students with internship and job opportunities',
-      'Implemented user, admin, and recruiter login with job posting and application tracking',
+      'Implemented features like user admin recruiter login,job posting and application tracking',
       'Designed a responsive interface with backend database integration for efficient job management',
     ],
     tags: ['React', 'FastAPI', 'MySQL', 'Full Stack'],
@@ -77,8 +79,8 @@ const PROJECTS = [
 ]
 
 const CERTIFICATES = [
-  { icon: '🏅', name: 'C Programming' },
-  { icon: '☕', name: 'Java Programming' },
+  { icon: '🏅', name: 'C' },
+  { icon: '☕', name: 'Java Programing' },
   { icon: '🐍', name: 'Python' },
   { icon: '🐼', name: 'Pandas' },
   { icon: '⚛️', name: 'Developing Front-End Apps with React' },
@@ -144,6 +146,15 @@ function Hero() {
           aria-label="GitHub"
         >
           <span className="icon">🐙</span> ManasaHM2005
+        </a>
+        <a
+          href="https://www.linkedin.com/in/manasa-h-m-758885328?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-chip"
+          aria-label="LinkedIn"
+        >
+          <span className="icon">💼</span> LinkedIn
         </a>
       </div>
       <div className="hero-cta">
@@ -294,6 +305,9 @@ function Footer() {
           <a href="mailto:manasahm2005@gmail.com">Email</a>
           <a href="https://github.com/ManasaHM2005" target="_blank" rel="noreferrer">
             GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/manasa-h-m-758885328?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer">
+            LinkedIn
           </a>
           <a href="tel:+918310055626">Phone</a>
         </div>
